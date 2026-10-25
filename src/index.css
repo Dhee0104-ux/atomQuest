@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-navy-950: #031726;
+    --brand-navy-900: #082f49;
+    --brand-cyan-500: #0284c7;
+    --brand-cyan-400: #38bdf8;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased font-sans min-h-screen selection:bg-brand-500 selection:text-white;
+  }
+
+  /* Accessible visible focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  /* Subtle glassmorphism card */
+  .card-premium {
+    @apply bg-white border border-slate-200/80 rounded-xl shadow-sm hover:shadow transition-all duration-200;
+  }
+
+  /* Status badge base */
+  .badge-status {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold tracking-wide border;
+  }
+
+  .badge-good {
+    @apply bg-emerald-50 text-emerald-800 border-emerald-200;
+  }
+
+  .badge-warning {
+    @apply bg-amber-50 text-amber-800 border-amber-200;
+  }
+
+  .badge-danger {
+    @apply bg-rose-50 text-rose-800 border-rose-200;
+  }
+
+  .badge-info {
+    @apply bg-sky-50 text-sky-800 border-sky-200;
+  }
+
+  /* Thin subtle dividers */
+  .divider {
+    @apply border-t border-slate-200 my-4;
+  }
+}
+
+/* Restrained animations */
+@keyframes flowPulse {
+  0% {
+    stroke-dashoffset: 24;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-flow {
+  animation: flowPulse 2s linear infinite;
+}
+
+@keyframes beacon {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.15);
+  }
+}
+
+.animate-beacon {
+  animation: beacon 2.5s ease-in-out infinite;
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-flow,
+  .animate-beacon {
+    animation: none !important;
+  }
+}
+
+/* Video Mode Layout Container (1920x1080) */
+body.video-mode-active {
+  width: 1920px;
+  height: 1080px;
+  max-width: 1920px;
+  max-height: 1080px;
+  overflow: hidden;
+  margin: 0 auto;
+}

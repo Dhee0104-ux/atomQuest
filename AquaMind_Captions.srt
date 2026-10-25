@@ -1,0 +1,23 @@
+1
+00:00:00,500 --> 00:00:11,500
+Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.
+
+2
+00:00:12,000 --> 00:00:24,500
+When a municipal pipe repair stirs sediment in Ward 4, purifiers detect elevated differential pressure and rising inlet TDS. Rather than blaming the consumer, AquaMind alerts on real upstream stress.
+
+3
+00:00:25,000 --> 00:00:37,500
+On our vector map, 14 reporting purifiers in Ward 4 cluster an identical turbidity spike. With privacy-preserving k-anonymity, households see the root cause without sharing private telemetry.
+
+4
+00:00:38,000 --> 00:00:51,500
+Unlike opaque AI black boxes, our prognostic formula is open: Remaining life equals rated capacity minus usage, multiplied by an audited water quality condition factor.
+
+5
+00:00:52,000 --> 00:01:06,500
+A user replaces their RO cartridge at home. AquaMind monitors flush volume and differential pressure. An incomplete flush is held pending; an O-ring defect is flagged immediately.
+
+6
+00:01:07,000 --> 00:01:19,500
+With 6 liters flushed and 93% salt rejection restored, the maintenance record is verified in simulation and the alert clears. AquaMind turns connected water into trusted intelligence.
