@@ -6,5 +6,9 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true
+  },
+  // @ts-ignore
+  test: {
+    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
   }
 });

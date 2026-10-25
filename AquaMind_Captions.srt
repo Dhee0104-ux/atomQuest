@@ -1,6 +1,6 @@
 1
 00:00:00,500 --> 00:00:11,500
-Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.
+Team AtoMaaN from SRMIST presents AquaMind for atomQUEST Track 2. Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry.
 
 2
 00:00:12,000 --> 00:00:24,500

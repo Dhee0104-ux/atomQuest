@@ -58,9 +58,11 @@ export const Header: React.FC = () => {
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
             <span className="font-semibold text-white">AquaMind</span>
             <span className="text-slate-400">|</span>
-            <span className="text-slate-200">atomQUEST 2026 Round 2 Submission Concept</span>
+            <span className="text-cyan-300 font-bold">Team: AtoMaaN • SRMIST • Track 2</span>
+            <span className="text-slate-400 hidden md:inline">|</span>
+            <span className="text-slate-300 hidden md:inline">atomQUEST 2026 Round 2 Prototype</span>
           </div>
-          <div className="text-[11px] text-cyan-200 font-medium">
+          <div className="text-[11px] text-slate-300 font-medium">
             Independent student concept; not affiliated with or endorsed by Atomberg.
           </div>
         </div>

@@ -1,6 +1,10 @@
 # AquaMind Criteria Traceability Matrix
-**atomQUEST 2026 (Atomberg) — Round 2**
-*Independent student concept; not affiliated with or endorsed by Atomberg.*
+**atomQUEST 2026 (Atomberg) — Round 2 Prototype Submission**
+* **Team:** AtoMaaN | **Solo Lead & Developer:** Dheeraj Chilla
+* **Institution:** SRM Institute of Science and Technology (SRMIST)
+* **Track:** Track 2 — Connected Purification, Edge Telemetry & Predictive Prognostics
+* **Official Video Deliverable:** `atomQUEST2026_AtoMaaN_SRMIST_Track2_Video.mp4` (87s, 4.5 MB, Full HD 1080p)
+* **Official Progress Report Deliverable:** `atomQUEST2026_AtoMaaN_SRMIST_Track2_Report.pdf` (2 Pages, A4)
 
 This matrix maps core functional themes, competition problem statement criteria, and technical execution requirements to the corresponding system screens, services, and implementation status.
 

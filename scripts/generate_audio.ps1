@@ -5,7 +5,7 @@ $outputFile = Join-Path $PSScriptRoot "..\AquaMind_Narration.wav"
 $synth.SetOutputToWaveFile($outputFile)
 
 $lines = @(
-    "Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.",
+    "Team AtoMaaN from SRMIST presents AquaMind for atomQUEST Track 2. Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.",
     "When a municipal pipe repair stirs sediment in Ward 4, purifiers detect elevated differential pressure and rising inlet TDS. Rather than blaming the consumer, AquaMind alerts on real upstream stress.",
     "On our vector map, 14 reporting purifiers in Ward 4 cluster an identical turbidity spike. With privacy-preserving k-anonymity, households see the root cause without sharing private telemetry.",
     "Unlike opaque AI black boxes, our prognostic formula is open: Remaining life equals rated capacity minus usage, multiplied by an audited water quality condition factor.",

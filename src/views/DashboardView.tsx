@@ -44,6 +44,11 @@ export const DashboardView: React.FC = () => {
               <span className="text-slate-500">•</span>
               <span className="text-xs text-slate-300">{activeDevice.location}</span>
             </div>
+            <div className="mt-1 flex items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-brand-500/30 border border-brand-400/50 text-cyan-200 text-[10px] font-bold font-mono">
+                TEAM AtoMaaN • SRMIST • TRACK 2
+              </span>
+            </div>
             <h1 className="text-2xl font-black text-white mt-1 tracking-tight">
               {activeDevice.name}
             </h1>

@@ -1,10 +1,12 @@
 AquaMind: Water Event Intelligence
-Independent Concept for atomQUEST 2026 (Atomberg) — Round 2
-Total Word Count: 157 words (Requirement: <= 195 words for 90-second pacing)
+atomQUEST 2026 (Atomberg) — Round 2 Prototype Submission
+Team: AtoMaaN | College: SRM Institute of Science and Technology (SRMIST) | Track 2
+Lead: Dheeraj Chilla (Solo Founder & Lead Engineer)
+Total Word Count: 167 words (Requirement: <= 195 words for 90-second pacing)
 Mandatory Disclosure: Prototype demonstration using simulated data. Hardware integrations and real-world validation are future work.
 
 --- SCENE 1 (00:00 - 00:12) ---
-Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.
+Team AtoMaaN from SRMIST presents AquaMind for atomQUEST Track 2. Water purifiers should not run on blind timers. AquaMind combines transparent condition-aware prognostics with neighborhood telemetry to make filter maintenance predictable and self-verifiable.
 
 --- SCENE 2 (00:12 - 00:25) ---
 When a municipal pipe repair stirs sediment in Ward 4, purifiers detect elevated differential pressure and rising inlet TDS. Rather than blaming the consumer, AquaMind alerts on real upstream stress.

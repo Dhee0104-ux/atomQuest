@@ -4,12 +4,17 @@
 
 ---
 
-## 1. Official Documentation Gap Record
+## 1. Official Documentation Audit & Resolution
 
-As instructed by the Round 2 guidelines, we audited `/spec/OFFICIAL_PROBLEM_STATEMENT.md` and `/spec/ROUND2_RULES.md`:
-- **Problem Statement Gap**: `/spec/OFFICIAL_PROBLEM_STATEMENT.md` was not supplied as a local file in the workspace.
-- **Rules Gap**: `/spec/ROUND2_RULES.md` was not supplied as a local file in the workspace.
-- **Protocol Applied**: In strict accordance with the instructions ("*If either is empty or placeholder text, proceed, record the gap in docs/ASSUMPTIONS.md, and do not invent official requirements or judging criteria*"), we proceed without fabricating official judging rubrics, maintaining total transparency about public information vs prototype models.
+* **Rules Audit:** The official guidelines document (`atomQUEST 2026 - Stage 2 details.pdf`) was uploaded by the team and transcribed to [spec/ROUND2_RULES.md](file:///d:/atomQuest/spec/ROUND2_RULES.md).
+* **Key Guidelines & Constraints Recorded:**
+  1. **Video Limits:** Max 90 seconds, $\le 50\text{ MB}$.
+  2. **Mandatory Video Content:** Team details, problem identified & solution, prototype progress so far, core function demonstration, what is done vs pending, safety / fail-safe mechanism status.
+  3. **Progress Report:** 1–2 page PDF covering team details, problem/solution, completed components/sourcing risks, amount spent vs abstract estimate, abstract changes/delays, safety/fail-safe status, Round 3 roadmap, with prototype photos/screenshots.
+  4. **Strict Naming Convention:**
+     * Video: `atomQUEST2026_[TeamName]_[CollegeName]_Track[No]_Video`
+     * Report: `atomQUEST2026_[TeamName]_[CollegeName]_Track[No]_Report`
+  5. **Hardware Focus:** Hardware prototype emphasis; software prototypes must deliver immense value. AquaMind addresses this via physical ESP32 firmware ([hardware/esp32/AquaMind_ESP32.ino](file:///d:/atomQuest/hardware/esp32/AquaMind_ESP32.ino)), live telemetry ingestion path (`POST /api/readings`), and hardware BOM feasibility design.
 
 ---
 
